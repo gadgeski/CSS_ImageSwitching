@@ -32,7 +32,7 @@ h2 {
   opacity: 0;
 }
 
-/* サムネイルを多き表示 */
+/* サムネイルを大きく表示 */
 .gallery {
   display: flex;
   gap: 1rem;
