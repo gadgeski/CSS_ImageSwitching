@@ -1,4 +1,4 @@
-const btnChange = document.querySelector(".gallery-main img");
+const mainImg = document.querySelector(".gallery-main img");
 const thumbnails = document.querySelectorAll(".gallery-thumbnail img");
 
 thumbnails.forEach((thumb) => {
