@@ -2,35 +2,102 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>-Relaxed Time-</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style2.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
-    <h1>今日も安らかな時間を</h1>
-    <h2>ここでしか味わえないこだわりのコーヒー</h2>
-    <div class="img-container">
-      <img class="img-change" src="./img/Coffee1812.jpg" alt="コーヒー" />
-    </div>
+    <header id="header">
+      <h1 class="logo">
+        <a href="index.html">
+          <img src="img/logo.png" alt="logo" />
+        </a>
+      </h1>
+    </header>
 
-    <h2>サムネイルを大きく表示</h2>
-    <div class="gallery">
-      <div class="gallery-main">
-        <img src="./img/Coffee1739.jpg" alt="商品1" />
+    <main>
+      <div class="mainvisual">
+        <img src="img/MainVisual2025.png" alt="カフェ" />
       </div>
-      <ul class="gallery-thumbnail">
-        <li>
-          <img src="./img/Coffee1812.jpg" alt="商品2" />
-        </li>
-        <li>
-          <img src="./img/Coffee1814.jpg" alt="商品3" />
-        </li>
-        <li>
-          <img src="./img/Coffee1815.jpg" alt="商品4" />
-        </li>
-        <h2>※カフェをイメージしたフィクションです</h2>
-      </ul>
-    </div>
+      <section class="concept wrapper">
+        <div class="img">
+          <img src="img/concept.jpg" alt="コンセプト" />
+        </div>
+        <div class="text">
+          <h2 class="section-title">今日も安らかな時間を</h2>
+          <p class="description">ここでしか味わえないこだわりのコーヒー</p>
+        </div>
+      </section>
+
+      <section class="new-products">
+        <div class="wrapper">
+          <h2 class="section-title">NEW<br />PRODUCTS</h2>
+          <div class="img-group">
+            <div class="img1">
+              <img src="img/Newitem1.jpg" alt="新作1" />
+              <div class="circle">4/1<br />新発売!</div>
+            </div>
+            <div class="img2">
+              <img src="img/Newitem2.jpg" alt="新作2" />
+            </div>
+            <div class="img3">
+              <img src="img/Newitem3.jpg" alt="新作3" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <selection class="new-type">
+        <div class="text">
+          <div class="text-inner">
+            <h2 class="section-title">ハイクオリティで毎日美味しい。<br /></h2>
+            <p class="description">
+              バランスのとれた味わいとさわやかな風味で包み込み<br />なめらかでしっとりとした余韻を
+            </p>
+          </div>
+        </div>
+        <div class="img">
+          <img src="img/NewType2025.png" alt="コーヒー" />
+        </div>
+      </selection>
+
+      <div class="img-container">
+        <img class="img-change" src="img/Coffee1812.jpg" alt="コーヒー" />
+      </div>
+
+      <h2>サムネイルを大きく表示</h2>
+      <div class="gallery">
+        <div class="gallery-main">
+          <img src="img/Coffee1739.jpg" alt="商品1" />
+        </div>
+        <ul class="gallery-thumbnail">
+          <li>
+            <img src="img/Coffee1812.jpg" alt="商品2" />
+          </li>
+          <li>
+            <img src="img/Coffee1814.jpg" alt="商品3" />
+          </li>
+          <li>
+            <img src="img/Coffee1815.jpg" alt="商品4" />
+          </li>
+          <small>※カフェをイメージしたフィクションです</small>
+        </ul>
+      </div>
+    </main>
+    <br />
+
+    <!------- Footer ------->
+    <footer id="footer">
+      <div class="inner wrapper">
+        <div class="logo">
+          <img src="img/logo.png" alt="logo" />
+        </div>
+        <p class="copyright">
+          <small>© 2025 Coffee&Design</small>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
